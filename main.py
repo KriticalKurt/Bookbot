@@ -4,7 +4,7 @@ def main():
     with open(frankenstein) as f:
         file_contents = f.read()
 
-    print(count_words(file_contents))
+    print(f"{count_words(file_contents)} words found in this document")
 
 def count_words(text):
     words = text.split()
